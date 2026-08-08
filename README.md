@@ -6,6 +6,7 @@ Front postawiony na "**?**"
 
 
 **Założenia FRONT**:
+<img width="69" height="73" alt="image" src="https://github.com/user-attachments/assets/d72616fc-48ec-4539-b97e-9d326571ffb4" />
 
 
 
