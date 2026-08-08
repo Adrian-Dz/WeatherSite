@@ -5,7 +5,7 @@ Api bedzie postawione na "**Render**"
 
 Front postawiony na "**?**"
 
-Baza danych postawiona na **Supabase** hasło: AdrianAdmin123
+Baza danych postawiona na **Supabase** hasło: AdrianAdmin123.123
 
 **Założenia FRONT**:
 Strona Użytkownika:
