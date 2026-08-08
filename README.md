@@ -6,8 +6,10 @@ Front postawiony na "**?**"
 
 
 **Założenia FRONT**:
-<img width="69" height="73" alt="image" src="https://github.com/user-attachments/assets/d72616fc-48ec-4539-b97e-9d326571ffb4" />
+Strona Użytkownika:
+<img width="1091" height="461" alt="image" src="https://github.com/user-attachments/assets/44cf8246-b57e-46bf-b52d-50d86f4e995d" />
 
+Admin Bedzie w navbarze posiadał odwołanie do strony z modyfikowaniem użytkowników w tym samym formacie
 
 
 **Założenia API**:
