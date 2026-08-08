@@ -14,6 +14,7 @@ Front postawiony na "**?**"
 - CORS
 - Autoryzacja poprzez middleware
 - Autoryzacja Uprawnien uzytkownika
+
 **USER**:
 - [POST] Tworzenie nowego okna dla nowego regionu gdzie mozna zobaczyc dane o pogodzie na nastepne 24h (Temperature, Szansa na deszcz, Przewidywane opady, Wiatr, Cisnienie)
 - [GET] Odczyt stworzonych okien przez siebie z mozliwoscia ukrycia poszczegolnych danych. Kiedy zaznaczamy ze nie chcemy jakis danych np. Ciśnienie to api nie wysyła ich.
