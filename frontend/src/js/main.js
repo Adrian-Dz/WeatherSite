@@ -6,6 +6,7 @@ const API_KEY = ""
 
 function init() {
     const sidePanel = document.getElementById("side_panel")
+    const mainPanel = document.getElementById("main_panel")
 
     let weatherPanels = getWeatherPanels()
     if (weatherPanels.length > 0) {
@@ -16,6 +17,8 @@ function init() {
       src="https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&v=weekly&solution_channel=GMP_CCS_geocodingservice_v2"
       defer
     ></script>`
+
+        mainPanel.innerHTML = html
     }
 }
 
