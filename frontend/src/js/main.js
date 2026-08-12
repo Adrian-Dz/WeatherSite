@@ -11,7 +11,8 @@ function init() {
     if (weatherPanels.length > 0) {
         
     } else {
-
+      html = `<div id="map"></div>`
+      var map = L.map('map').setView([51.505, -0.09], 13);
     }
 }
 
