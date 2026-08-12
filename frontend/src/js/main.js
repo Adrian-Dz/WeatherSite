@@ -16,7 +16,7 @@ function init() {
       mainPanel.innerHTML = html
 
       //Leaflet code
-      var map = L.map('map').setView([51.505, -0.09], 13);
+      var map = L.map('map').setView([52.2000, 19.2000], 6);
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
