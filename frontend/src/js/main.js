@@ -18,7 +18,7 @@ function init() {
       //Leaflet code
       var map = L.map('map').setView([51.505, -0.09], 13);
 
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      L.tileLayer('https://api.openstreetmap.org/api/0.6/map?bbox=14.106,48.959,24.258,54.997', {
       maxZoom: 19,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
