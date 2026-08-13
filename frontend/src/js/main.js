@@ -11,12 +11,27 @@ function init() {
     if (weatherPanels.length > 0) {
         
     } else {
-      html = `<div id="map"></div>`
+      
 
-      mainPanel.innerHTML = html
+     
+      
+    }
+}
 
-      //Leaflet code
-      var map = L.map('map').setView([52.2000, 19.2000], 6);
+
+function addWeatherPanel() {
+  const mainPanel = document.getElementById("main_panel")
+
+
+  html = `
+  <h3>Select a location on the map to get weather information</h3>
+  <div id="map"></div>
+  `
+  mainPanel.innerHTML = html
+
+
+  //Leaflet code
+  var map = L.map('map').setView([52.2000, 19.2000], 6);
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -26,7 +41,6 @@ function init() {
       setTimeout(() => {
         map.invalidateSize();
     }, 100); 
-    }
 }
 
 function getWeatherPanels() {
