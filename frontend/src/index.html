@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link rel="stylesheet" href="assets/styles.css">
-     <script src="js/main.js"></script>
-    <title>Weather App - Dashboard</title>
 </head>
-<body class="GridParent">`
-    <div id="nav_bar" class="NavBar">
-        <h1>NavBar</h1>
-    </div>
-    <div id="side_panel" class="SidePanel">
-        <h1>SidePanel</h1>
-    </div>
-    <div id="main_panel" class="MainPanel">
-        <h1>MainPanel</h1>
-    </div>
+<body class="app-shell">
+    <aside id="side_panel" class="side-panel" aria-label="Lista paneli pogodowych"></aside>
+
+    <main class="main-area">
+        <header class="topbar">
+            <h1>NAV BAR</h1>
+            <div class="user-zone">
+                <span>username</span>
+                <button type="button" class="logout-btn">/ LOGOUT</button>
+            </div>
+        </header>
+
+        <section id="main_panel" class="main-panel" aria-live="polite"></section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
