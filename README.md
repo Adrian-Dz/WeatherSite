@@ -3,7 +3,7 @@ Interactive website with rest api written in Golang.
 
 Api bedzie postawione na "**Render**"
 
-Front postawiony na "**?**"
+Front postawiony na "**Render**"
 
 Baza danych postawiona na **Supabase** hasło: AdrianAdmin123.123
 
